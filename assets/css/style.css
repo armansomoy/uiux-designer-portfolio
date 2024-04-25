@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.whatsApp-btn{
+.whatsApp-btn {
   height: 60px;
   width: 60px;
   background-color: #08ff90;
@@ -9,6 +9,21 @@
   bottom: 60px;
   left: 60px;
   z-index: 999;
+}
+/*======== small device =========*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .whatsApp-btn {
+    bottom: 22px;
+    left: 27px;
+  }
+}
+
+/*======== Extra small device =========*/
+@media (max-width: 575.98px) {
+  .whatsApp-btn {
+    bottom: 22px;
+    left: 27px;
+  }
 }
 
 * {
@@ -11645,11 +11660,11 @@ blockquote .blockquote-footer:before {
 /*******************************************************/
 /**************** ## Work Process Area *****************/
 /*******************************************************/
-.work-step-item.one:hover .title{
-  color:  #02050a !important;
+.work-step-item.one:hover .title {
+  color: #02050a !important;
 }
-.work-step-item.three:hover .title{
-  color:  #02050a !important;
+.work-step-item.three:hover .title {
+  color: #02050a !important;
 }
 
 .work-step-item {
