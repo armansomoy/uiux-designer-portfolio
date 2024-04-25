@@ -1059,7 +1059,7 @@ a.theme-btn.style-four:hover {
 .scroll-top {
   position: fixed;
   bottom: 25px;
-  right: 0;
+  right: 30px;
   width: 40px;
   height: 40px;
   z-index: 99;
@@ -1068,6 +1068,7 @@ a.theme-btn.style-four:hover {
   cursor: pointer;
   line-height: 40px;
   border-radius: 5px;
+  color: #fff;
   background: var(--ygency-primary-color);
   -webkit-animation: pulse 2s infinite;
   animation: pulse 2s infinite;
@@ -9607,7 +9608,7 @@ blockquote .blockquote-footer:before {
   border-radius: 0;
   font-weight: 700;
   text-align: center;
-  color: var(--ygency-dark-color);
+  color: #fff;
   text-transform: uppercase;
   background: var(--ygency-primary-color);
 }
@@ -9766,7 +9767,7 @@ blockquote .blockquote-footer:before {
   background: var(--ygency-dark-color);
 }
 .pricing-plan-item .theme-btn.style-two:hover {
-  color: var(--ygency-secondary-color);
+  color: #fff;
   background: var(--ygency-primary-color);
 }
 .pricing-plan-item:hover {
